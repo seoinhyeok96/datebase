@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -110.4,
-    "scrollLeft": -144.00000000000006,
-    "zoomLevel": 0.9,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -41,13 +41,253 @@
     "pluginSerializationMap": {}
   },
   "table": {
-    "tables": [],
+    "tables": [
+      {
+        "name": "사용자 주요 정보",
+        "comment": "",
+        "columns": [
+          {
+            "name": " 유니온 ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 62.9755859375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "2b420780-654f-427a-945a-5b36c41eaee6"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 232,
+          "top": 192,
+          "zIndex": 105,
+          "widthName": 102.140625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "af2e5a75-a1d3-4cfb-ac8d-419623f7c610"
+      },
+      {
+        "name": "사용자 지역",
+        "comment": "",
+        "columns": [
+          {
+            "name": " 지역명 유니온 ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 106.5458984375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "ae3b7364-aac0-459b-b031-787054ec9741"
+          },
+          {
+            "name": "지역명",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "4292460c-d5ec-43ff-948c-5fd647dcb4df"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 199.2,
+          "top": 407.2,
+          "zIndex": 87,
+          "widthName": 71.5703125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "c379c5c0-8794-47a7-90a6-27308f92bd82"
+      },
+      {
+        "name": "사용자 상호명",
+        "comment": "",
+        "columns": [
+          {
+            "name": "상호이름 유니온 ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 114.9755859375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "45d8a07a-4580-4eb7-a95d-e68ebce8e44f"
+          },
+          {
+            "name": "상호 이름",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "f608d9bd-2b33-42ca-9dae-1c859d1f81dd"
+          },
+          {
+            "name": " 유니온 ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 62.9755859375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "0e789871-ba8c-41ab-a806-8cc0b8f87b0b"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 705.6889,
+          "top": 338.6671,
+          "zIndex": 103,
+          "widthName": 84.5703125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "0f235e6d-b9d8-4d5e-8f4f-3299ea160339"
+      }
+    ],
     "indexes": []
   },
   "memo": {
     "memos": []
   },
   "relationship": {
-    "relationships": []
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "af2e5a75-a1d3-4cfb-ac8d-419623f7c610",
+          "columnIds": [
+            "2b420780-654f-427a-945a-5b36c41eaee6"
+          ],
+          "x": 406.98779296875,
+          "y": 281.5,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "c379c5c0-8794-47a7-90a6-27308f92bd82",
+          "columnIds": [
+            "ae3b7364-aac0-459b-b031-787054ec9741"
+          ],
+          "x": 395.97294921875,
+          "y": 407.2,
+          "direction": "top"
+        },
+        "constraintName": "fk_사용자 주요 정보_to_사용자 지역",
+        "visible": true,
+        "id": "f6619cf7-c6b3-406d-bbac-0b809e052d05"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "af2e5a75-a1d3-4cfb-ac8d-419623f7c610",
+          "columnIds": [
+            "2b420780-654f-427a-945a-5b36c41eaee6"
+          ],
+          "x": 581.9755859375,
+          "y": 236.75,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "0f235e6d-b9d8-4d5e-8f4f-3299ea160339",
+          "columnIds": [
+            "0e789871-ba8c-41ab-a806-8cc0b8f87b0b"
+          ],
+          "x": 705.6889,
+          "y": 403.9171,
+          "direction": "left"
+        },
+        "constraintName": "fk_사용자 주요 정보_to_사용자 상호명",
+        "visible": true,
+        "id": "051592e3-d0e2-4723-9bac-a8fdcdf65fad"
+      }
+    ]
   }
 }
