@@ -1,0 +1,316 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -79.20000000000005,
+    "scrollLeft": -38.400000000000006,
+    "zoomLevel": 0.9,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "사용자 주요 정보",
+        "comment": "",
+        "columns": [
+          {
+            "name": "유니온 ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "b26f2a39-9b9d-458b-9b41-bd95840795eb"
+          },
+          {
+            "name": "이름",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3ba578b7-1278-406d-af20-c49b7cf2eb47"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 24.8,
+          "top": 28,
+          "zIndex": 1,
+          "widthName": 102.140625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "358093cf-e3bc-43ad-b88c-5be956be72fb"
+      },
+      {
+        "name": "취미 공통 코드",
+        "comment": "",
+        "columns": [
+          {
+            "name": "취미 유니온 ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 88.9755859375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1391faab-f7c9-4d80-9147-84d2953ab4be"
+          },
+          {
+            "name": "취미",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "522ef921-f8ee-4b74-bf06-bc976e409772"
+          },
+          {
+            "name": "",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "d5c59196-e7cd-4aba-80e0-6725c7da435c"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 363.2,
+          "top": 479.2,
+          "zIndex": 2,
+          "widthName": 89.140625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "bb28a7a2-aa5b-474a-9721-9a5ea94c3566"
+      },
+      {
+        "name": "사용자 취미 정보",
+        "comment": "",
+        "columns": [
+          {
+            "name": "",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "fc69414d-43d5-441e-bb4a-42e1108d724f"
+          },
+          {
+            "name": "유니온 ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "470e92c5-bcea-4677-9a25-fb56f43ef0f5"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 133.6,
+          "top": 338.4,
+          "zIndex": 3,
+          "widthName": 102.140625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "35199597-b0d7-43ee-960b-a6b586543a6e"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "ZeroOne",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "bb28a7a2-aa5b-474a-9721-9a5ea94c3566",
+          "columnIds": [
+            "d5c59196-e7cd-4aba-80e0-6725c7da435c"
+          ],
+          "x": 551.18779296875,
+          "y": 479.2,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "35199597-b0d7-43ee-960b-a6b586543a6e",
+          "columnIds": [
+            "fc69414d-43d5-441e-bb4a-42e1108d724f"
+          ],
+          "x": 480.6,
+          "y": 393.4,
+          "direction": "right"
+        },
+        "constraintName": "fk_취미 공통 코드_to_사용자 취미 정보",
+        "visible": true,
+        "id": "c5c47495-6fa8-4f94-bb20-8a0fba4ad789"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroOne",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "358093cf-e3bc-43ad-b88c-5be956be72fb",
+          "columnIds": [
+            "b26f2a39-9b9d-458b-9b41-bd95840795eb"
+          ],
+          "x": 198.3,
+          "y": 138,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "35199597-b0d7-43ee-960b-a6b586543a6e",
+          "columnIds": [
+            "470e92c5-bcea-4677-9a25-fb56f43ef0f5"
+          ],
+          "x": 307.1,
+          "y": 338.4,
+          "direction": "top"
+        },
+        "constraintName": "fk_사용자 주요 정보_to_사용자 취미 정보",
+        "visible": true,
+        "id": "d4ac9b11-d268-4885-b76c-a41d52f2540a"
+      }
+    ]
+  }
+}
