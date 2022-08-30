@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -314.39999999999935,
-    "scrollLeft": -244.00000000000009,
-    "zoomLevel": 0.5,
+    "scrollTop": -431.9999999999999,
+    "scrollLeft": -279.20000000000033,
+    "zoomLevel": 0.4,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -366,9 +366,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 700.4668,
-          "top": 120.5335,
-          "zIndex": 5,
+          "left": 623.8955,
+          "top": 102.8571,
+          "zIndex": 8,
           "widthName": 60,
           "widthComment": 60
         },
@@ -489,8 +489,8 @@
           "columnIds": [
             "f8df87b9-9d59-4009-9951-96359923b8e9"
           ],
-          "x": 1071.8720734375001,
-          "y": 185.7835,
+          "x": 995.3007734375,
+          "y": 168.1071,
           "direction": "right"
         },
         "constraintName": "fk_직업_to_유저 업무",
@@ -515,8 +515,8 @@
           "columnIds": [
             "1292e92c-ac9e-4267-b5da-0f418f4c0a85"
           ],
-          "x": 700.4668,
-          "y": 185.7835,
+          "x": 623.8955,
+          "y": 168.1071,
           "direction": "left"
         },
         "constraintName": "fk_회사_to_유저 업무",
