@@ -1,0 +1,297 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "COMPANY",
+        "comment": "회사 구성원",
+        "columns": [
+          {
+            "name": "ID ",
+            "comment": "유니크 ID",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "d6c27bbe-2e40-47e2-85dc-7867145a0214"
+          },
+          {
+            "name": "NAME",
+            "comment": "이름",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "e530b1cf-dc66-4ed4-ae82-088434f81930"
+          },
+          {
+            "name": "AGE",
+            "comment": "나이",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "936e5df0-8574-445a-a682-47a1c3cfbbb6"
+          },
+          {
+            "name": "ADDRESS",
+            "comment": "주소",
+            "dataType": "CHAR(50)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "01687a7e-5d5f-4c19-953d-e9a51f9f3a71"
+          },
+          {
+            "name": "SALARY",
+            "comment": "월급",
+            "dataType": "REAL",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "36f4d0e3-0e1d-4b76-93fe-c5132fd33121"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 178.9331,
+          "top": 71.0216,
+          "zIndex": 158,
+          "widthName": 64.20703125,
+          "widthComment": 71.5703125
+        },
+        "visible": true,
+        "id": "d0bc1e19-26ce-4ae0-bbdd-7e326013146a"
+      },
+      {
+        "name": "DEPAPTMET",
+        "comment": "부서",
+        "columns": [
+          {
+            "name": "ID",
+            "comment": "유니크 ID",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "fe3b975d-91db-4d17-8460-cd18de3c3865"
+          },
+          {
+            "name": "DEPT",
+            "comment": "부서",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "a1a032c6-91f2-409f-8f0b-c526e19dbfb4"
+          },
+          {
+            "name": "EMP_ID ",
+            "comment": "유니크 ID",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "0f8b9f3e-08b7-425d-ad6d-c4eac8571480"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 178.0446,
+          "top": 401.6896,
+          "zIndex": 162,
+          "widthName": 72.9033203125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "6d5cf3c1-061b-4272-850f-1a219bc23f90"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "d0bc1e19-26ce-4ae0-bbdd-7e326013146a",
+          "columnIds": [
+            "d6c27bbe-2e40-47e2-85dc-7867145a0214"
+          ],
+          "x": 367.07958437499997,
+          "y": 242.5216,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "6d5cf3c1-061b-4272-850f-1a219bc23f90",
+          "columnIds": [
+            "0f8b9f3e-08b7-425d-ad6d-c4eac8571480"
+          ],
+          "x": 366.191084375,
+          "y": 401.6896,
+          "direction": "top"
+        },
+        "constraintName": "fk_company_to_depaptmet",
+        "visible": true,
+        "id": "7b96fae4-ea58-40da-9895-e397959893a5"
+      }
+    ]
+  }
+}
